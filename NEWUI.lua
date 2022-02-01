@@ -1454,7 +1454,7 @@ PlayerName.Name = "PlayerName"
 PlayerName.Parent = Frame
 PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 PlayerName.BackgroundTransparency = 1.010
-PlayerName.Position = UDim2.new(0.251572341, 0, 0.145454511, 0)
+PlayerName.Position = UDim2.new(0.261572341, 0, 0.145454511, 0)
 PlayerName.Size = UDim2.new(0, 97, 0, 60)
 PlayerName.Font = Enum.Font.Gotham
 PlayerName.Text = ""
@@ -1470,7 +1470,7 @@ statusnm.Size = UDim2.new(0, 110, 0, 32)
 statusnm.Font = Enum.Font.Gotham
 statusnm.Text = "Free User"
 statusnm.TextColor3 = Color3.fromRGB(255, 255, 255)
-statusnm.TextSize = 11.000
+statusnm.TextSize = 12.000
 
 local function IDAAYFE_fake_script() -- MainTitle.mainrgb 
 	local script = Instance.new('LocalScript', MainTitle)
@@ -1506,8 +1506,8 @@ local function WAULAMB_fake_script() -- Frame.Image
 	frame.PlayerName.Text = player.Name
 end
 coroutine.wrap(WAULAMB_fake_script)()
-local function ONPCCUY_fake_script() -- statusnm.statusnamergb 
-	local script = Instance.new('LocalScript', statusnm)
+		local function NYHOP_fake_script() -- PlayerName.playernamergb 
+	local script = Instance.new('LocalScript', PlayerName)
 
 	while wait() do
 		local r = (math.sin(workspace.DistributedGameTime/2)/2)+0.5
@@ -1517,7 +1517,7 @@ local function ONPCCUY_fake_script() -- statusnm.statusnamergb
 		script.Parent.TextColor3 = color
 	end
 end
-coroutine.wrap(ONPCCUY_fake_script)()		
+coroutine.wrap(NYHOP_fake_script)()
 		return ContainerItems
 	end
 	return Tabs
