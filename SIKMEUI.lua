@@ -197,7 +197,7 @@ function VLib:Window(textgame)
 	GameTitle.Size = UDim2.new(0, 71, 0, 20)
 	GameTitle.Font = Enum.Font.Gotham
 	GameTitle.Text = textgame
-	GameTitle.TextColor3 = Color3.fromRGB(250, 255, 25)
+	GameTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 	GameTitle.TextSize = 14.000
 	GameTitle.TextTransparency = 0.100
 	GameTitle.TextXAlignment = Enum.TextXAlignment.Left
@@ -1427,7 +1427,7 @@ function VLib:Window(textgame)
 			Container.CanvasSize = UDim2.new(0, 0, 0, ContainerLayout.AbsoluteContentSize.Y)
 		end
 		ImageLabel.Parent = Circle
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundColor3 = Color3.fromRGB(32, 33, 37)
 ImageLabel.Size = UDim2.new(0, 38, 0, 38)
 ImageLabel.Image = "rbxassetid://8709145048"
 
