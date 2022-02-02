@@ -1428,6 +1428,7 @@ function VLib:Window(textgame)
 		end
 		ImageLabel.Parent = Circle
 ImageLabel.BackgroundColor3 = Color3.fromRGB(32, 33, 37)
+ImageLabel.BorderSizePixel = 0		
 ImageLabel.Size = UDim2.new(0, 38, 0, 38)
 ImageLabel.Image = "rbxassetid://8709145048"
 
